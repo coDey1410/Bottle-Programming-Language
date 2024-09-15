@@ -1,4 +1,7 @@
 ![Project Diagram](images/bottle.png "Project Diagram")
+
+
+
 To rewrite the provided instructions for a README.md format, which is often used on GitHub or other version control platforms to explain setup and usage, here’s a structured and clear version that details how to download, install, and run the `Bottle.pkg`, and how to troubleshoot potential path issues specifically for a macOS environment using `zsh` as the shell.
 
 ### Installation and Running Instructions for Bottle on macOS
