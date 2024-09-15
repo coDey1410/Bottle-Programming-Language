@@ -129,7 +129,7 @@ func main() {
 
 	filePath := os.Args[1]
 	if !strings.HasSuffix(filePath, ".utsav") {
-		fmt.Println("Please provide a file with a .upp extension")
+		fmt.Println("Please provide a file with a .utsav extension")
 		os.Exit(1)
 	}
 

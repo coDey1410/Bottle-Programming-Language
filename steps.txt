@@ -1,0 +1,9 @@
+mkdir -p MyPackageRoot/usr/local/bin
+cp bottle MyPackageRoot/usr/local/bin/
+
+pkgbuild --root MyPackageRoot/ \
+         --install-location /usr/local \
+         --identifier com.yourdomain.bottle \
+         --version 1.0.0 \
+         --ownership recommended \
+         Bottle-1.0.0.pkg
