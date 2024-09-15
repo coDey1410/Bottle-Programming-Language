@@ -128,8 +128,8 @@ func main() {
 	}
 
 	filePath := os.Args[1]
-	if !strings.HasSuffix(filePath, ".utsav") {
-		fmt.Println("Please provide a file with a .utsav extension")
+	if !strings.HasSuffix(filePath, ".bottle") {
+		fmt.Println("Please provide a file with a .bottle extension")
 		os.Exit(1)
 	}
 
